@@ -84,19 +84,6 @@ export default function InputHeader({ decimalCounter, setDecimalCounter }) {
           value={formInputValue}
           onChange={(e) => handleFormInputValueChange(e.target.value)}
         />
-
-        <select
-          className="w-auto h-full m-4 px-4 bg-purple-900 rounded-md border-spacing-2
-                    text-center font-Digital7 text-4xl text-white
-                    hover:bg-purple-800"
-          value={selectedNumeralSystem}
-          onChange={(e) => handleNumeralSystemChange(e.target.value)}
-        >
-          <option value={10}>Decimal</option>
-          <option value={2}>Binary</option>
-          <option value={8}>Octal</option>
-          <option value={16}>Hexadecimal</option>
-        </select>
       </form>
     </div>
   );
