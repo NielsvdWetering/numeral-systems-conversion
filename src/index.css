@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "digital7";
+  src:
+    local("Digital7"),
+    url("./assets/fonts/\/Digital7.ttf") format("truetype");
+}
